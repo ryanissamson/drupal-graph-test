@@ -1,0 +1,28 @@
+uuid: e0ac8b73-438b-41c0-8842-423d2f937441
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.graphqlct.body
+    - node.type.graphqlct
+  module:
+    - text
+    - user
+id: node.graphqlct.default
+targetEntityType: node
+bundle: graphqlct
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

@@ -1,0 +1,23 @@
+uuid: 28306f90-0dbb-437f-904a-c2fbe81f1c00
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.graphqlct
+  module:
+    - text
+id: node.graphqlct.body
+field_name: body
+entity_type: node
+bundle: graphqlct
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

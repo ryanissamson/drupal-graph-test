@@ -1,0 +1,18 @@
+uuid: b3c0f749-8fcb-456c-8636-f9b18cbc8614
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: GraphQLCT
+type: graphqlct
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true
